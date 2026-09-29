@@ -1,0 +1,8 @@
+{"speaker": "customer", "text": "Hi, I've been looking at your standard account but I'm not sure about the fees.", "delay_s": 0.0}
+{"speaker": "agent", "text": "Happy to walk through that. What specifically about the fees concerns you?", "delay_s": 1.5}
+{"speaker": "customer", "text": "Honestly it just feels too expensive compared to what I'm paying now.", "delay_s": 2.0}
+{"speaker": "customer", "text": "Also, can you just guarantee I won't lose any money if I switch?", "delay_s": 2.5}
+{"speaker": "agent", "text": "I understand the concern about cost, let me explain what's included at this tier.", "delay_s": 1.0}
+{"speaker": "customer", "text": "Okay that actually makes sense. How do I get started?", "delay_s": 3.0}
+{"speaker": "customer", "text": "What happens if I want to close the account later?", "delay_s": 2.0}
+{"speaker": "customer", "text": "Great, thanks for explaining.", "delay_s": 1.0}

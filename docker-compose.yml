@@ -1,0 +1,20 @@
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    environment:
+      LLM_PROVIDER: mock # swap to "openai" or "anthropic" and set the matching API key to use a real model
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+      LOG_LEVEL: INFO
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "5173:80"
+    environment:
+      VITE_API_HTTP_URL: http://localhost:8000
+      VITE_API_WS_URL: ws://localhost:8000
+    depends_on:
+      - backend

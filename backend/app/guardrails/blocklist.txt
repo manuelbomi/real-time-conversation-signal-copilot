@@ -1,0 +1,13 @@
+# One phrase per line, case-insensitive substring match.
+# These are deliberately blunt, fast, deterministic tripwires that run
+# BEFORE the (slower, fuzzier) LLM-judge guardrail. A regex/blocklist layer
+# can't be argued with by a prompt-injected transcript the way an LLM judge
+# theoretically could be -- see docs/adr/0003-guardrail-withhold-not-rewrite.md.
+guaranteed return
+guarantee you will
+risk-free
+zero risk
+i promise you
+this will definitely
+cannot lose money
+insider information
