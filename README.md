@@ -2,8 +2,8 @@
 
 A production-shaped, end-to-end example of a **live conversation-intelligence
 assistant**: it streams conversation turns as they happen, tags each one
-with multi-label signals (objection, buying signal, compliance risk,
-question, action item), retrieves a grounded next-best-action recommendation
+with multi-lable signals (objection, buying signal, compliance risk,
+question, action item), retrieves a grounded next-best-action recommendatoin
 from an approved knowledge base via RAG (with citations), and enforces a
 compliance guardrail layer that **withholds** (never silently rewrites) a
 recommendation it can't clear.
